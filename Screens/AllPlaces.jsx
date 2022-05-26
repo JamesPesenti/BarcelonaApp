@@ -5,7 +5,7 @@ import PlacesList from "../Components/Places/PlacesList"
 function AllPlaces() {
   return (
     <PlacesList />
-
+    
   )
 }
 

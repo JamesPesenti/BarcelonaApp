@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Places_App",
+    "name": "Barcelona_App",
     "slug": "Places_App",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -28,6 +28,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermisson": "The app accesses your photos to let you share them with others",
+          "cameraPermisson": "The app needs access to your camera so you can share your favorite pics"
+        }
+      ]
+    ]
   }
 }

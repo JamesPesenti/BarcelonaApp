@@ -1,4 +1,4 @@
-import {View, Image, Text, Pressable, StyleSheet } from 'react'
+import {View, Image, Text, Pressable, StyleSheet } from 'react-native'
 
 function PlaceItem({ place, onSelect }) {
   return (
@@ -16,6 +16,7 @@ export default PlaceItem
 
 const styles = StyleSheet.create({
     rootContainer: {
-
+        flex: 1,
+        justifyContent: "center",
     },
 })

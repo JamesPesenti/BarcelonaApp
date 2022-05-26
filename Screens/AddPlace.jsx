@@ -1,8 +1,9 @@
-import React from 'react'
+import {} from 'react-native'
+import PlaceForm from "../Components/Places/PlaceForm"
 
 function AddPlace() {
   return (
-    <div>AddPlace</div>
+    <PlaceForm />
   )
 }
 

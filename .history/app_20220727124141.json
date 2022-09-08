@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Barcelona App",
+    "slug": "App_De_Barce",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/visitbarce.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f23f3f"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.jimpesenti.AppDeBarce"
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermisson": "The app accesses your photos to let you share them with others",
+          "cameraPermisson": "The app needs access to your camera so you can share your favorite pics"
+        }
+      ]
+    ]
+  }
+}
